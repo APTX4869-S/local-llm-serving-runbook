@@ -1,0 +1,15 @@
+# Local runtime junk
+*.log
+__pycache__/
+*.pyc
+
+# Personal environment
+.env
+local/
+.vscode/
+.idea/
+
+# Never commit model files / engines / big blobs
+*.ninfer
+engine/
+model/
